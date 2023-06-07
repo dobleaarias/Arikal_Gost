@@ -135,11 +135,11 @@ export default class KoenigLexicalEditor extends Component {
     offers = null;
 
     get pinturaJsUrl() {
-        return this.config.pintura?.js || this.settings.pinturaJsUrl;
+        return '/assets/pintura-umd.js';
     }
 
     get pinturaCSSUrl() {
-        return this.config.pintura?.css || this.settings.pinturaCssUrl;
+        return '/assets/pintura.css';
     }
 
     get pinturaConfig() {
